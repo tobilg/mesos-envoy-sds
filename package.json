@@ -1,0 +1,38 @@
+{
+  "name": "mesos-envoy-sds",
+  "version": "0.1.0",
+  "description": "An Envoy Service Discovery Service for Mesos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobilg/mesos-envoy-sds.git"
+  },
+  "keywords": [
+    "mesos",
+    "envoy",
+    "proxy",
+    "config",
+    "service",
+    "discovery"
+  ],
+  "author": {
+    "name": "TobiLG",
+    "email": "tobilg@gmail.com",
+    "url": "https://github.com/tobilg"
+  },
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/tobilg/mesos-envoy-sds/issues"
+  },
+  "homepage": "https://github.com/tobilg/mesos-envoy-sds#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mesos-operator-api-client": "^0.3.0",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  }
+}
