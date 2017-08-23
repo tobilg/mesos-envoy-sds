@@ -1,7 +1,5 @@
 "use strict";
 
-// Helpers
-const helpers = require("../lib/helpers");
 const MesosState = require("../lib/mesos");
 
 let ms = new MesosState({
