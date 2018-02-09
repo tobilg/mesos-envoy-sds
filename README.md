@@ -1,5 +1,5 @@
 # mesos-envoy-sds
-An [Envoy](https://lyft.github.io/envoy/docs/index.html) Service Discovery Service for Mesos. This service can be launched within a Mesos cluster, e.g. via Marathon, and will provide a [Envoy SDS endpoint](https://lyft.github.io/envoy/docs/configuration/cluster_manager/sds_api.html) which can be usend in a Envoy configuration.
+An [Envoy](https://lyft.github.io/envoy/docs/index.html) Service Discovery Service for Mesos. This service can be launched within a Mesos cluster, e.g. via Marathon, and will provide a [Envoy SDS endpoint](https://www.envoyproxy.io/docs/envoy/v1.5.0/api-v1/cluster_manager/sds) which can be usend in a Envoy configuration.
 
 ## Configuration
 
